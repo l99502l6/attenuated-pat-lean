@@ -3,8 +3,8 @@ Formal verification of condition (i) of Definition 2.1 for the two attenuation
 models of "Reconstruction method based on Fourier series for attenuated
 photoacoustic tomography in a circular geometry".
 -/
-import GSRTVerification.Prelude
-import GSRTVerification.AttenuationExt
+import AttenuatedPAT.Prelude
+import AttenuatedPAT.AttenuationExt
 
 /-!
 # Polynomial growth of all derivatives

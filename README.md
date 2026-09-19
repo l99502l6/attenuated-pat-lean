@@ -1,4 +1,4 @@
-# GSRTVerification
+# AttenuatedPAT
 
 A Lean 4 / Mathlib formalization of mathematical statements made in
 
@@ -21,7 +21,7 @@ The paper as a whole is *not* verified; a specific list of its claims is.
 
 ```bash
 lake build
-lake env lean GSRTVerification/Main.lean > axioms.txt
+lake env lean AttenuatedPAT/Main.lean > axioms.txt
 ```
 
 Every line of `axioms.txt` must read
@@ -33,7 +33,7 @@ Toolchain `leanprover/lean4:v4.35.0-rc2`; the exact Mathlib revision is pinned i
 
 ### A note on imports
 
-`GSRTVerification/Prelude.lean` imports only the parts of Mathlib that are used,
+`AttenuatedPAT/Prelude.lean` imports only the parts of Mathlib that are used,
 and every other module imports it. This is deliberate: `import Mathlib` loads
 roughly 5 GB of `.olean` files, and on a machine with less RAM than that every
 elaboration re-reads them from disk, which pushed per-file compile times from

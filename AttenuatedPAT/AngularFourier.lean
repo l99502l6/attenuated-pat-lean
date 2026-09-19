@@ -3,7 +3,7 @@ Formal verification of the angular Fourier series steps of
 "Reconstruction method based on Fourier series for attenuated photoacoustic
 tomography in a circular geometry", Section 3 and Algorithm 1.
 -/
-import GSRTVerification.Prelude
+import AttenuatedPAT.Prelude
 
 /-!
 # Angular Fourier series, symmetrisation and orthogonality

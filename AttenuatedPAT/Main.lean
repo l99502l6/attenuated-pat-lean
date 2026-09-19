@@ -3,12 +3,12 @@ Audit file: checks that every headline result of the development depends only on
 Lean's three standard axioms (`propext`, `Classical.choice`, `Quot.sound`), and
 in particular on no `sorryAx`.
 -/
-import GSRTVerification
+import AttenuatedPAT
 
 /-!
 # Axiom audit
 
-Running `lake env lean GSRTVerification/Main.lean` prints, for each headline
+Running `lake env lean AttenuatedPAT/Main.lean` prints, for each headline
 theorem, the axioms it depends on.  A `sorryAx` in any of these lists would mean
 the corresponding statement is not actually proved.
 -/

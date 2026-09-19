@@ -3,8 +3,8 @@ Formal verification of the radial systems of
 "Reconstruction method based on Fourier series for attenuated photoacoustic
 tomography in a circular geometry", Section 3.2 and Section 4.2.
 -/
-import GSRTVerification.Prelude
-import GSRTVerification.AngularFourier
+import AttenuatedPAT.Prelude
+import AttenuatedPAT.AngularFourier
 
 /-!
 # The discrete radial systems `A_l`

@@ -3,8 +3,8 @@ Formal verification of the spectral (singular value) form of the regularized
 solution in "Reconstruction method based on Fourier series for attenuated
 photoacoustic tomography in a circular geometry", Section 3.2.
 -/
-import GSRTVerification.Prelude
-import GSRTVerification.Tikhonov
+import AttenuatedPAT.Prelude
+import AttenuatedPAT.Tikhonov
 
 /-!
 # The singular value form of the Tikhonov solution

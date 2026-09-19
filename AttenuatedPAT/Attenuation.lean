@@ -3,7 +3,7 @@ Formal verification of the attenuation coefficients of
 "Reconstruction method based on Fourier series for attenuated photoacoustic
 tomography in a circular geometry", Definition 2.1 and Section 4.1.
 -/
-import GSRTVerification.Prelude
+import AttenuatedPAT.Prelude
 
 /-!
 # Attenuation coefficients

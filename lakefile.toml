@@ -1,7 +1,7 @@
-name = "GSRTVerification"
+name = "AttenuatedPAT"
 version = "0.1.0"
 keywords = ["math"]
-defaultTargets = ["GSRTVerification"]
+defaultTargets = ["AttenuatedPAT"]
 
 [leanOptions]
 pp.unicode.fun = true # pretty-prints `fun a ↦ b`
@@ -17,4 +17,4 @@ scope = "leanprover-community"
 rev = "v4.35.0-rc2"
 
 [[lean_lib]]
-name = "GSRTVerification"
+name = "AttenuatedPAT"

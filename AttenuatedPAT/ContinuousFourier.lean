@@ -3,8 +3,8 @@ Formal verification of the continuous angular Fourier extraction used in
 "Reconstruction method based on Fourier series for attenuated photoacoustic
 tomography in a circular geometry", Section 3.1.
 -/
-import GSRTVerification.Prelude
-import GSRTVerification.AngularFourier
+import AttenuatedPAT.Prelude
+import AttenuatedPAT.AngularFourier
 
 /-!
 # Continuous angular orthogonality

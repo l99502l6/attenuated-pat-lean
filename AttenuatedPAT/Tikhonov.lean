@@ -3,7 +3,7 @@ Formal verification of the Tikhonov regularization step used in
 "Reconstruction method based on Fourier series for attenuated photoacoustic
 tomography in a circular geometry", Section 3.2.
 -/
-import GSRTVerification.Prelude
+import AttenuatedPAT.Prelude
 
 /-!
 # Zero-order Tikhonov regularization

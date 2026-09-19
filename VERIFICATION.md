@@ -14,7 +14,7 @@ section 3 before describing this work as "the paper was verified in Lean".**
 
 ```
 lake build                          # type-checks every proof
-lake env lean GSRTVerification/Main.lean   # prints the axiom audit
+lake env lean AttenuatedPAT/Main.lean   # prints the axiom audit
 ```
 
 Toolchain: `leanprover/lean4:v4.35.0-rc2`, Mathlib pinned at the same revision
@@ -24,7 +24,7 @@ Evidence files:
 
 | File | What it shows |
 | --- | --- |
-| `GSRTVerification/*.lean` | the proofs themselves |
+| `AttenuatedPAT/*.lean` | the proofs themselves |
 | `axioms.txt` | output of `#print axioms` for every headline theorem |
 | `lake-manifest.json` | the exact Mathlib revision used |
 
