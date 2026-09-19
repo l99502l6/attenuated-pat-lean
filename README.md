@@ -12,7 +12,7 @@ The paper as a whole is *not* verified; a specific list of its claims is.
 
 | | |
 | --- | --- |
-| Build | `lake build` succeeds, 9 modules |
+| Build | `lake build` succeeds, 10 modules |
 | `sorry` / `axiom` declarations | none |
 | Theorems audited | 52 |
 | Axiom dependencies | `propext`, `Classical.choice`, `Quot.sound` only — see `axioms.txt` |
